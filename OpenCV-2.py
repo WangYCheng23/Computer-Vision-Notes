@@ -23,6 +23,7 @@ args = parser.parse_args()
 capture = cv2.VideoCapture(args.index_camera)
 if capture.isOpened()is False:
     print("Error opening the camera")
+    
 while capture.isOpened():
     ret, frame = capture.read()
 
