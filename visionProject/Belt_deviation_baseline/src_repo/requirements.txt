@@ -1,0 +1,6 @@
+tqdm
+tensorboard
+addict
+scikit-learn
+pathspec
+setuptools==59.5.0
